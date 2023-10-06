@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(cube_-_43022\ \(Original\).mp4);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: #03030310;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0, 363);
+    backdrop-filter: blur(30px);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+select#caixa_lista {
+    width: 150px;
+}
+
+#caixa_lista {
+    background-color: #ffffff10; /* Colocando cor na caixa de seleção */
+    color: #fff; /* Cor do texto que vai ficar dentro da caixa */
+}
+
+#caixa_numero {
+    background-color: #ffffff10;
+    color: #fff;
+}
+div#novo {
+    color: white;
+}
+div#caixa_resposta {
+    color: white;
+}
